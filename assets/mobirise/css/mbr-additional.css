@@ -1412,6 +1412,19 @@ section.lazy-placeholder:after {
 .cid-rQvqoZ4p94 .mbr-overlay ~ .container-slide {
   z-index: auto;
 }
+.cid-rRmMU85Xpq {
+  background: #000000;
+  padding-top: 90px;
+  padding-bottom: 75px;
+}
+.cid-rRmMU85Xpq .video-block {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .cid-rRmMU85Xpq .video-block {
+    width: 100% !important;
+  }
+}
 .cid-rQwedjEHlJ {
   padding-top: 90px;
   padding-bottom: 90px;
