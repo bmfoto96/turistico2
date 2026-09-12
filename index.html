@@ -1,611 +1,467 @@
 <!DOCTYPE html>
-<html class="dark" lang="en">
+<html lang="es">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Bryan Muñoz | Fashion & Sports Photography, Art Direction & Retouching</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Título y Meta Descripción Optimizados -->
+  <title>Bryan Muñoz | Fotógrafo de Moda, Deportes y Dirección de Arte (Madrid & Barcelona)</title>
+  <meta name="description" content="Captura técnica de alta fidelidad, dirección visual para marcas de vanguardia y retoque digital high-end en Madrid, Barcelona y producciones internacionales.">
+  <meta name="keywords" content="Fotógrafo de Moda Madrid, Fotógrafo Deportivo Barcelona, Retoque High-End, Dirección de Arte, Phase One 150MP, Hasselblad">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  
+  <!-- URL Canónica -->
+  <link rel="canonical" href="https://bmfoto96.github.io/SEO/">
 
-<!-- Typography and Material Symbols -->
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@500;600;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Syne:wght@100..900&display=swap" rel="stylesheet"/>
+  <!-- Estilos y Fuentes Externas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<!-- Tailwind CSS -->
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script id="tailwind-config">
-    tailwind.config = {
-      darkMode: "class",
-      theme: {
-        extend: {
-          "colors": {
-            "surface-container-lowest": "#0e0e0f",
-            "on-tertiary-container": "#63646c",
-            "outline": "#8e9192",
-            "secondary-fixed": "#e2e1eb",
-            "inverse-primary": "#5d5f5f",
-            "on-error-container": "#ffdad6",
-            "surface-bright": "#3a393a",
-            "error-container": "#93000a",
-            "surface-variant": "#353436",
-            "inverse-surface": "#e5e2e3",
-            "on-surface-variant": "#c4c7c8",
-            "surface-container-highest": "#353436",
-            "on-primary": "#2f3131",
-            "surface-container": "#201f20",
-            "tertiary-fixed": "#e3e1ec",
-            "on-secondary-fixed-variant": "#45464e",
-            "on-secondary": "#2f3037",
-            "tertiary": "#ffffff",
-            "surface": "#131314",
-            "on-primary-fixed-variant": "#454747",
-            "primary-fixed": "#e2e2e2",
-            "on-tertiary": "#2f3038",
-            "on-secondary-fixed": "#1a1b22",
-            "surface-dim": "#131314",
-            "secondary": "#c6c6cf",
-            "surface-tint": "#c6c6c7",
-            "on-primary-container": "#636565",
-            "on-tertiary-fixed": "#1a1b22",
-            "secondary-fixed-dim": "#c6c6cf",
-            "primary": "#ffffff",
-            "on-primary-fixed": "#1a1c1c",
-            "inverse-on-surface": "#313031",
-            "surface-container-high": "#2a2a2b",
-            "primary-container": "#e2e2e2",
-            "tertiary-container": "#e3e1ec",
-            "on-secondary-container": "#b4b4bd",
-            "on-surface": "#e5e2e3",
-            "outline-variant": "#444748",
-            "surface-container-low": "#1c1b1c",
-            "on-background": "#e5e2e3",
-            "primary-fixed-dim": "#c6c6c7",
-            "tertiary-fixed-dim": "#c6c5cf",
-            "background": "#131314",
-            "secondary-container": "#45464e",
-            "on-tertiary-fixed-variant": "#46464e",
-            "error": "#ffb4ab",
-            "on-error": "#690005"
+  <!-- Protocolo Open Graph (WhatsApp, LinkedIn, Facebook) -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bmfoto96.github.io/SEO/">
+  <meta property="og:title" content="Bryan Muñoz | Fotografía de Moda, Deportes y Dirección de Arte">
+  <meta property="og:description" content="Captura técnica de alta fidelidad, dirección visual y retoque digital high-end en Madrid y Barcelona.">
+  <meta property="og:image" content="https://lh3.googleusercontent.com/aida-public/AB6AXuBbpYnSjBU07iX-I7AG0qO3uPYIy9x0cmW1ccFxABqNQ6sUcSefVHxzCDLcNEtUDFt8qmBDwucuR9dBkIR2bTB4L6d8QSFfe2vXIUM8NwOkSgw-_EFDVPJdhzxll0PEpGa5KD9m5as79c6z5QwV8a1b8PMAN0RzVQD0yAxjDCo-hq1MPWS9Ga4-1oP7k9VS7PEZq34HNujRRrcohYWIGcKFuagSrLmiNwKtNRdvQ5P69FrOrcYjPCbZVw">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="Bryan Muñoz Photography">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bryan Muñoz | Fotografía de Moda & Deportes">
+  <meta name="twitter:description" content="Fotografía editorial y retoque digital de alta resolución en Madrid y Barcelona.">
+  <meta name="twitter:image" content="https://lh3.googleusercontent.com/aida-public/AB6AXuBbpYnSjBU07iX-I7AG0qO3uPYIy9x0cmW1ccFxABqNQ6sUcSefVHxzCDLcNEtUDFt8qmBDwucuR9dBkIR2bTB4L6d8QSFfe2vXIUM8NwOkSgw-_EFDVPJdhzxll0PEpGa5KD9m5as79c6z5QwV8a1b8PMAN0RzVQD0yAxjDCo-hq1MPWS9Ga4-1oP7k9VS7PEZq34HNujRRrcohYWIGcKFuagSrLmiNwKtNRdvQ5P69FrOrcYjPCbZVw">
+
+  <!-- Marcado de Datos Estructurados JSON-LD (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Photographer",
+        "@id": "https://bmfoto96.github.io/SEO/#photographer",
+        "name": "Bryan Muñoz",
+        "url": "https://bmfoto96.github.io/SEO/",
+        "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBbpYnSjBU07iX-I7AG0qO3uPYIy9x0cmW1ccFxABqNQ6sUcSefVHxzCDLcNEtUDFt8qmBDwucuR9dBkIR2bTB4L6d8QSFfe2vXIUM8NwOkSgw-_EFDVPJdhzxll0PEpGa5KD9m5as79c6z5QwV8a1b8PMAN0RzVQD0yAxjDCo-hq1MPWS9Ga4-1oP7k9VS7PEZq34HNujRRrcohYWIGcKFuagSrLmiNwKtNRdvQ5P69FrOrcYjPCbZVw",
+        "jobTitle": "Fotógrafo Profesional y Director de Arte",
+        "description": "Especialista en fotografía editorial de moda, campañas deportivas de alta velocidad y retoque digital high-end.",
+        "email": "studio@bryanmunoz.com",
+        "telephone": "+34910000000",
+        "address": [
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "Calle Almirante 14",
+            "postalCode": "28004",
+            "addressLocality": "Madrid",
+            "addressCountry": "ES"
           },
-          "borderRadius": {
-            "DEFAULT": "0.25rem",
-            "lg": "0.5rem",
-            "xl": "0.75rem",
-            "full": "9999px"
-          },
-          "spacing": {
-            "section-sm": "4rem",
-            "margin-desktop": "4rem",
-            "gutter-lg": "1.5rem",
-            "margin-mobile": "1.25rem",
-            "section-lg": "12rem",
-            "margin-wide": "6rem",
-            "gutter-xl": "2.5rem",
-            "section-md": "7rem",
-            "gutter-sm": "0.5rem",
-            "margin-tablet": "2.5rem",
-            "gutter-xs": "0.25rem",
-            "gutter-md": "1rem"
-          },
-          "fontFamily": {
-            "caption": ["Inter"],
-            "body-md": ["Inter"],
-            "headline-sm": ["Syne"],
-            "headline-md": ["Syne"],
-            "display-hero-mobile": ["Syne"],
-            "body-sm": ["Inter"],
-            "display-hero": ["Syne"],
-            "body-lg": ["Inter"],
-            "headline-lg-mobile": ["Syne"],
-            "headline-lg": ["Syne"],
-            "action-label": ["Inter"]
-          },
-          "fontSize": {
-            "caption": ["0.6875rem", { "lineHeight": "1rem", "letterSpacing": "0.12em", "fontWeight": "500" }],
-            "body-md": ["0.9375rem", { "lineHeight": "1.625rem", "letterSpacing": "0", "fontWeight": "300" }],
-            "headline-sm": ["1.25rem", { "lineHeight": "1.75rem", "letterSpacing": "-0.01em", "fontWeight": "500" }],
-            "headline-md": ["2rem", { "lineHeight": "2.5rem", "letterSpacing": "-0.02em", "fontWeight": "500" }],
-            "display-hero-mobile": ["2.75rem", { "lineHeight": "3rem", "letterSpacing": "-0.03em", "fontWeight": "700" }],
-            "body-sm": ["0.8125rem", { "lineHeight": "1.375rem", "letterSpacing": "0.01em", "fontWeight": "400" }],
-            "display-hero": ["5.5rem", { "lineHeight": "5.75rem", "letterSpacing": "-0.04em", "fontWeight": "700" }],
-            "body-lg": ["1.125rem", { "lineHeight": "1.875rem", "letterSpacing": "-0.01em", "fontWeight": "300" }],
-            "headline-lg-mobile": ["2rem", { "lineHeight": "2.25rem", "letterSpacing": "-0.02em", "fontWeight": "600" }],
-            "headline-lg": ["3.5rem", { "lineHeight": "3.75rem", "letterSpacing": "-0.03em", "fontWeight": "600" }],
-            "action-label": ["0.75rem", { "lineHeight": "1rem", "letterSpacing": "0.08em", "fontWeight": "500" }]
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "Poblenou Creative Hub",
+            "postalCode": "08005",
+            "addressLocality": "Barcelona",
+            "addressCountry": "ES"
           }
-        }
+        ],
+        "knowsAbout": [
+          "Fotografía de Moda",
+          "Fotografía Deportiva",
+          "Retoque High-End",
+          "Separación de Frecuencias",
+          "Dodge & Burn",
+          "Phase One IQ4",
+          "Hasselblad H6D"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://bmfoto96.github.io/SEO/#website",
+        "url": "https://bmfoto96.github.io/SEO/",
+        "name": "Bryan Muñoz Photography",
+        "publisher": {
+          "@id": "https://bmfoto96.github.io/SEO/#photographer"
+        },
+        "inLanguage": "es"
       }
-    }
+    ]
+  }
   </script>
-<style>
-    .material-symbols-outlined {
-      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
-      display: inline-block;
-      vertical-align: middle;
-      line-height: 1;
-    }
-    html {
-      scroll-behavior: smooth;
-      background-color: #0b0b0c;
-    }
-    ::selection {
-      background-color: #ffffff;
-      color: #0b0b0c;
-    }
-  </style>
 </head>
-<body class="bg-surface-container-lowest text-on-surface antialiased selection:bg-primary selection:text-surface-container-lowest">
 
-<!-- TOP APP BAR -->
-<header class="sticky top-0 z-50 bg-surface/90 dark:bg-surface/90 backdrop-blur-md border-b border-outline-variant/20 dark:border-outline-variant/20 transition-opacity duration-300">
-<div class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin-desktop flex justify-between items-center h-20 max-w-screen-2xl mx-auto">
-<div class="flex flex-col">
-<a class="text-headline-sm font-headline-sm font-bold tracking-tight text-primary dark:text-primary uppercase flex items-center gap-2" href="#">
-          Bryan Muñoz
+<body>
+
+  <header>
+    <div>
+      <a href="#inicio">
+        <span>BRYAN MUÑOZ</span>
+        <span>EDITORIAL &amp; SPORTS PHOTOGRAPHY</span>
+      </a>
+
+      <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#portafolio">Portafolio</a>
+        <a href="#vision">Visión</a>
+        <a href="#retoque">Técnica</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <div>
+        <a href="#contacto">Inquire</a>
+      </div>
+    </div>
+  </header>
+
+  <aside>
+    <div>
+      <div>
+        <div>
+          <span>TECHNICAL METRICS</span>
+          <span>Series 01 / Specification Index</span>
+        </div>
+      </div>
+
+      <nav>
+        <a href="#specs">
+          <span>photo_camera</span>
+          <span>EXIF &amp; Capture</span>
         </a>
-<span class="font-caption text-caption uppercase text-on-surface-variant tracking-widest hidden sm:inline-block">
-          STUDIO / PARIS • NEW YORK
-        </span>
-</div>
-<nav class="hidden lg:flex items-center gap-8">
-<a class="text-primary dark:text-primary border-b border-primary pb-1 font-action-label text-action-label uppercase tracking-widest" href="#portfolio">Portfolio</a>
-<a class="text-secondary dark:text-secondary hover:text-primary dark:hover:text-primary pb-1 font-action-label text-action-label uppercase tracking-widest transition-colors duration-200" href="#fashion">Fashion</a>
-<a class="text-secondary dark:text-secondary hover:text-primary dark:hover:text-primary pb-1 font-action-label text-action-label uppercase tracking-widest transition-colors duration-200" href="#sports">Sports</a>
-<a class="text-secondary dark:text-secondary hover:text-primary dark:hover:text-primary pb-1 font-action-label text-action-label uppercase tracking-widest transition-colors duration-200" href="#retouching">Retouching</a>
-<a class="text-secondary dark:text-secondary hover:text-primary dark:hover:text-primary pb-1 font-action-label text-action-label uppercase tracking-widest transition-colors duration-200" href="#philosophy">Philosophy</a>
-<a class="text-secondary dark:text-secondary hover:text-primary dark:hover:text-primary pb-1 font-action-label text-action-label uppercase tracking-widest transition-colors duration-200" href="#contact">Contact</a>
-</nav>
-<div class="flex items-center gap-6">
-<span class="hidden xl:inline-block font-caption text-caption uppercase text-on-surface-variant tracking-widest border-r border-outline-variant/30 pr-6">
-          Available Worldwide
-        </span>
-<a class="bg-primary text-surface-container-lowest font-action-label text-action-label uppercase tracking-widest px-6 py-2.5 rounded-none hover:opacity-85 transition-opacity duration-200" href="#contact">
-          Inquire
+        <a href="#specs">
+          <span>light_mode</span>
+          <span>Lighting Schema</span>
         </a>
-</div>
-</div>
-</header>
+        <a href="#specs">
+          <span>tune</span>
+          <span>Post-Production (D&amp;B / FS)</span>
+        </a>
+      </nav>
 
-<main>
-<!-- HERO SECTION -->
-<section class="relative w-full min-h-[90vh] bg-surface-container-lowest flex flex-col justify-end overflow-hidden border-b border-outline-variant/20">
-<div class="absolute inset-0 z-0">
-  <!-- IMAGEN HERO OPTIMIZADA CON SEO Y PERFORMANCE -->
-  <img 
-    src="assets/img/bryan-munoz-fotografia-alta-costura-haute-couture.webp" 
-    alt="Fotografía editorial de alta costura por Bryan Muñoz en entorno arquitectónico con iluminación chiaroscuro" 
-    width="1920" 
-    height="1080" 
-    loading="eager" 
-    fetchpriority="high" 
-    class="w-full h-full object-cover object-center brightness-75 contrast-110" 
-  />
-  <div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/50 to-transparent"></div>
-  <div class="absolute inset-0 bg-gradient-to-r from-surface-container-lowest/80 via-transparent to-surface-container-lowest/40"></div>
-</div>
+      <div>
+        <div>
+          <span>SENSOR</span>
+          <span>53.4 x 40.0mm (100MP)</span>
+        </div>
+        <div>
+          <span>SHUTTER</span>
+          <span>1/800s Leaf Shutter</span>
+        </div>
+        <div>
+          <span>APERTURE</span>
+          <span>f/8.0 Sweet-Spot</span>
+        </div>
+        <div>
+          <span>DYNAMIC RANGE</span>
+          <span>15+ Stops RAW</span>
+        </div>
+      </div>
+    </div>
 
-<div class="relative z-10 w-full px-margin-mobile md:px-margin-tablet lg:px-margin-desktop py-16 max-w-screen-2xl mx-auto flex flex-col gap-8">
-<div class="flex items-center gap-3">
-<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-<p class="font-caption text-caption text-secondary uppercase tracking-widest">
-            HAUTE COUTURE FW25 • ARCHIVAL PREVIEW
+    <div>
+      <div>
+        <div>
+          <span>palette</span>
+          <span>Color Profile: ProPhoto RGB</span>
+        </div>
+        <div>
+          <span>verified</span>
+          <span>Colorimeter Calibrated: Delta E &lt; 0.8</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- SECCIÓN INICIO / HERO -->
+  <section id="inicio">
+    <div>
+      <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbpYnSjBU07iX-I7AG0qO3uPYIy9x0cmW1ccFxABqNQ6sUcSefVHxzCDLcNEtUDFt8qmBDwucuR9dBkIR2bTB4L6d8QSFfe2vXIUM8NwOkSgw-_EFDVPJdhzxll0PEpGa5KD9m5as79c6z5QwV8a1b8PMAN0RzVQD0yAxjDCo-hq1MPWS9Ga4-1oP7k9VS7PEZq34HNujRRrcohYWIGcKFuagSrLmiNwKtNRdvQ5P69FrOrcYjPCbZVw" 
+           alt="Bryan Muñoz - Fotografía editorial de moda y deportes en Madrid y Barcelona">
+      <div></div>
+    </div>
+
+    <div>
+      <div>
+        <span></span>
+        <span>MADRID / BARCELONA • PRODUCCIÓN GLOBAL</span>
+      </div>
+
+      <h1>
+        Bryan Muñoz | Fotografía de Moda, Deportes y Dirección de Arte
+      </h1>
+
+      <p>
+        Captura técnica de alta fidelidad, dirección visual para marcas de vanguardia y retoque digital high-end en Madrid, Barcelona y producciones internacionales.
+      </p>
+
+      <div>
+        <a href="#portafolio">Explorar Portafolio</a>
+        <a href="#contacto">Ficha Técnica &amp; Contacto</a>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <span>HERO FRAME 001</span>
+        <span>HASSELBLAD H6D-100c • HC 100mm f/2.2</span>
+        <span>BRONCOLOR PARA 133FB KEY</span>
+      </div>
+      <div>
+        SERIE: MONOCHROME STATURE
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN PORTAFOLIO -->
+  <section id="portafolio">
+    <div>
+      <div>
+        <span>ARCHIVO SELECCIONADO</span>
+        <h2>Obras Principales</h2>
+      </div>
+    </div>
+
+    <div>
+      <article>
+        <div>
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1xgKwtr-uPtysqzJV1DGeD2kLIulTWnhtCS4PHgPRdvZe8EmNhuN1wvTJRSaCSs7fvYf5rlmaabVVZT9sC3ET-Q1B5Vk0MXFtNIGYp02p2BluwY2AMosMVs9ifHAamGHwIdSA-ONAZ0U4rIEK1cxFhHMcM9aOdG3xyO78FY0todDNdD-RN-0VG7f_oKDkMLFrfmEEa2JXC759gtbAUbO7Mm_bUe1Dj50__4S5keEq1Q3NbS-DZTWLxg" 
+               alt="Serie 01 Moda: Arquitectura textil y alta costura en Madrid por Bryan Muñoz">
+          <div>SERIE 01 // MODA</div>
+        </div>
+        <div>
+          <div>
+            <h3>Arquitectura Textil • Alta Costura</h3>
+            <span>2024 / MADRID</span>
+          </div>
+          <p>
+            Exploración de volúmenes esculturales y contraste tonal absoluto para colección editorial de sastrería de vanguardia.
           </p>
-</div>
-<div class="max-w-4xl">
-<h1 class="font-headline-lg-mobile md:font-display-hero text-headline-lg-mobile md:text-display-hero text-primary tracking-tight uppercase leading-tight font-bold">
-            Bryan Muñoz
-          </h1>
-<p class="font-headline-sm text-headline-sm text-secondary uppercase tracking-wider mt-2 font-medium">
-            Fashion & Sports Photography, Art Direction
+          <div>
+            <div><span>CÁMARA</span> Phase One IQ4 150MP</div>
+            <div><span>ÓPTICA</span> Schneider 80mm LS f/2.8</div>
+            <div><span>ILUMINACIÓN</span> Octabox 150cm + Rim Light</div>
+            <div><span>POSPRODUCCIÓN</span> D&amp;B Manual + FS 16-bit</div>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div>
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1JWWSEVEAabLZV_HF9d8VYgUhVtUqidEBKTgaBXKIDHLGHN1CYqd5tvFwd8RAuU5c1i83i3-vt4D-UjU28pUlKUYiNuVYSAEVyuiZbGGiaUnFsaUXJvcmvsahI3alaz8cfLwRXm9Oguj44RyrdyHk4sS7UgQ1tMiu_OtS95x2yKX3EHQYsvXImKsDekvyQYnMTR9FlJm6vX1McJSFYDnxTQOoWDTRsDgZc03v9j8MR7BUJZZVHHrmpA" 
+               alt="Serie 02 Deportes: Tensión cinética y atletismo en Barcelona por Bryan Muñoz">
+          <div>SERIE 02 // DEPORTES</div>
+        </div>
+        <div>
+          <div>
+            <h3>Tensión Cinética • Atletismo</h3>
+            <span>2024 / BARCELONA</span>
+          </div>
+          <p>
+            Estudio del límite biomecánico y la aceleración instantánea en atletas de velocidad mediante destello estroboscópico ultra rápido.
           </p>
-<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl mt-4 font-light leading-relaxed">
-            Editorial fashion photography production, high-velocity sports campaigns, and museum-grade digital retouching for premier global brands and cultural institutions.
+          <div>
+            <div><span>CÁMARA</span> Hasselblad H6D-100c</div>
+            <div><span>ÓPTICA</span> HC 2,2/100mm</div>
+            <div><span>ILUMINACIÓN</span> 3x Broncolor Pulso (1/8000s)</div>
+            <div><span>POSPRODUCCIÓN</span> Curvas Dinámicas 16-bit</div>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div>
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcRRat5uV6PopS-H6Qy0_UzIM5z33Ny2U7Ax6aQ1pZMXNy8xO1G_9nn1cXeiEJDt2SyD86slBl_yzBRBquFHgo5Hx4ziduaHdzC3YxBZD9yZjR26xaE8eep76Hjp7RgHK5eicAxzLxeo9yWpu0muPctc8LrRGDvj2o3BkTRiDNHSuDsxOsELrX4Z1exUzTtIJs1fr1O4KBmT0vjRtFx1G_bziaHe27GcD2uBSheiPf1IAm1uansSxhNw" 
+               alt="Serie 03 Retoque High-End: Micro-textura y belleza editorial en Madrid por Bryan Muñoz">
+          <div>SERIE 03 // RETOQUE HIGH-END</div>
+        </div>
+        <div>
+          <div>
+            <h3>Micro-Textura • Beauty Editorial</h3>
+            <span>2024 / MADRID</span>
+          </div>
+          <p>
+            Tratamiento de piel no destructivo con separación de frecuencias en dos bandas y Dodge &amp; Burn microscópico a nivel de poro.
           </p>
-</div>
-<div class="flex flex-wrap items-center gap-4 pt-2">
-<a class="bg-primary text-surface-container-lowest font-action-label text-action-label uppercase tracking-widest px-8 py-4 rounded-none hover:opacity-90 transition-opacity" href="#portfolio">
-            Explore Selected Works
-          </a>
-<a class="border border-outline-variant text-primary font-action-label text-action-label uppercase tracking-widest px-8 py-4 rounded-none hover:border-primary transition-colors" href="#contact">
-            Book Art Direction
-          </a>
-</div>
+          <div>
+            <div><span>CÁMARA</span> Phase One XF IQ4</div>
+            <div><span>ÓPTICA</span> Schneider 120mm Macro</div>
+            <div><span>ILUMINACIÓN</span> Mola Demi Beauty Dish + Grid</div>
+            <div><span>POSPRODUCCIÓN</span> Dodge &amp; Burn Manual Puro</div>
+          </div>
+        </div>
+      </article>
 
-<div class="mt-12 pt-8 border-t border-outline-variant/20 flex flex-col md:flex-row md:items-center justify-between gap-6">
-<span class="font-caption text-caption uppercase text-outline tracking-widest">Selected Clients</span>
-<div class="flex flex-wrap items-center gap-8 lg:gap-14 font-headline-sm text-headline-sm text-secondary font-semibold uppercase tracking-wider opacity-65">
-<span class="hover:text-primary transition-colors cursor-default">VOGUE</span>
-<span class="hover:text-primary transition-colors cursor-default">NIKE</span>
-<span class="hover:text-primary transition-colors cursor-default">BALENCIAGA</span>
-<span class="hover:text-primary transition-colors cursor-default">GQ</span>
-<span class="hover:text-primary transition-colors cursor-default">HARPER’S BAZAAR</span>
-<span class="hover:text-primary transition-colors cursor-default">ADIDAS</span>
-<span class="hover:text-primary transition-colors cursor-default">OFF-WHITE</span>
-</div>
-</div>
-</div>
-</section>
-
-<!-- CURATED PORTFOLIO ARCHIVE SECTION -->
-<section class="w-full py-section-sm md:py-section-md border-b border-outline-variant/20" id="portfolio">
-<div class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin-desktop max-w-screen-2xl mx-auto flex flex-col gap-12">
-<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 pb-6 border-b border-outline-variant/20">
-<div class="max-w-2xl">
-<span class="font-caption text-caption uppercase text-outline tracking-widest">Curated Monograph</span>
-<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary uppercase font-bold tracking-tight mt-2">
-              Selected Works & Archive
-            </h2>
-<p class="font-body-md text-body-md text-on-surface-variant mt-3 font-light">
-              An unyielding survey of structural silhouettes, human kinetics under extreme physical pressure, and flawless skin fidelity engineered for premier campaign spreads.
-            </p>
-</div>
-
-<div class="flex flex-wrap items-center gap-3 md:gap-4 font-caption text-caption uppercase tracking-wider">
-<button class="text-primary border-b-2 border-primary pb-1 font-semibold">All Works (18)</button>
-<span class="text-outline-variant">/</span>
-<button class="text-on-surface-variant hover:text-primary pb-1 transition-colors">Fashion Editorial</button>
-<span class="text-outline-variant">/</span>
-<button class="text-on-surface-variant hover:text-primary pb-1 transition-colors">Athletic & Sports Motion</button>
-<span class="text-outline-variant">/</span>
-<button class="text-on-surface-variant hover:text-primary pb-1 transition-colors">High-End Retouching</button>
-</div>
-</div>
-
-<div class="grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 items-start">
-<!-- CARD 1: FASHION -->
-<article class="md:col-span-7 flex flex-col gap-4 group" id="fashion">
-<div class="relative overflow-hidden bg-surface-container aspect-[4/5] w-full">
-  <!-- IMAGEN FASHION OPTIMIZADA CON SEO -->
-  <img 
-    src="assets/img/bryan-munoz-editorial-moda-nocturne-silhouette.webp" 
-    alt="Retrato de moda editorial por Bryan Muñoz mostrando vestido negro de corte arquitectónico en edificio brutalista" 
-    width="800" 
-    height="1000" 
-    loading="lazy" 
-    class="w-full h-full object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.015]" 
-  />
-  <div class="absolute top-4 left-4 bg-surface-container-lowest/80 backdrop-blur-sm px-3 py-1 border border-outline-variant/30">
-    <span class="font-caption text-caption uppercase text-primary tracking-widest">Archive Plate 01 • Fashion</span>
-  </div>
-</div>
-
-<div class="border border-outline-variant/20 p-5 bg-surface-container-low flex flex-col gap-3">
-<div class="flex justify-between items-baseline border-b border-outline-variant/20 pb-2">
-<h3 class="font-headline-sm text-headline-sm text-primary uppercase font-bold tracking-tight">
-                  Nocturne Silhouette
-                </h3>
-<span class="font-caption text-caption uppercase text-outline">FW25 Haute Couture</span>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-y-2 gap-x-6 text-on-surface-variant font-caption text-caption uppercase tracking-wider">
-<div><span class="text-outline">Camera:</span> Hasselblad H6D-100c</div>
-<div><span class="text-outline">Optics:</span> HC 2,2/100mm Prime</div>
-<div><span class="text-outline">Lighting:</span> Chiaroscuro key beam, negative fill</div>
-<div><span class="text-outline">Post-Production:</span> Bryan Muñoz Color Lab</div>
-</div>
-<p class="font-body-sm text-body-sm text-secondary font-light pt-1">
-                Monochrome tonal study captured within raw brutalist architecture in Paris, emphasizing sculptural drape tension and razor-sharp baselines.
-              </p>
-</div>
-</article>
-
-<!-- CARD 2: SPORTS MOTION -->
-<article class="md:col-span-5 flex flex-col gap-4 group" id="sports">
-<div class="relative overflow-hidden bg-surface-container aspect-[3/4] w-full">
-  <!-- IMAGEN SPORTS OPTIMIZADA CON SEO -->
-  <img 
-    src="assets/img/bryan-munoz-fotografia-deportiva-atleta-velocidad-lluvia.webp" 
-    alt="Fotografía deportiva de alta velocidad por Bryan Muñoz con atleta velocista en lluvia congelada a 1/8000s" 
-    width="600" 
-    height="800" 
-    loading="lazy" 
-    class="w-full h-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.015]" 
-  />
-  <div class="absolute top-4 left-4 bg-surface-container-lowest/80 backdrop-blur-sm px-3 py-1 border border-outline-variant/30">
-    <span class="font-caption text-caption uppercase text-primary tracking-widest">Archive Plate 02 • Motion</span>
-  </div>
-</div>
-<div class="border border-outline-variant/20 p-5 bg-surface-container-low flex flex-col gap-3">
-<div class="flex justify-between items-baseline border-b border-outline-variant/20 pb-2">
-<h3 class="font-headline-sm text-headline-sm text-primary uppercase font-bold tracking-tight">
-                  Kinetic Velocity
-                </h3>
-<span class="font-caption text-caption uppercase text-outline">Nike Global Track</span>
-</div>
-<div class="grid grid-cols-1 gap-y-2 text-on-surface-variant font-caption text-caption uppercase tracking-wider">
-<div><span class="text-outline">Technique:</span> High-speed sync 1/8000s • Suspended water capture</div>
-<div><span class="text-outline">Mastering:</span> High-frequency separation & dynamic range balancing</div>
-</div>
-<p class="font-body-sm text-body-sm text-secondary font-light pt-1">
-                High-performance athletic documentation isolating raw human strain against glistening wet rubber track surfacing under continuous flood rim lighting.
-              </p>
-</div>
-</article>
-
-<!-- CARD 3: RETOUCHING / BEAUTY -->
-<article class="md:col-span-12 mt-6 flex flex-col lg:flex-row gap-8 items-stretch border border-outline-variant/20 p-6 lg:p-8 bg-surface-container-low" id="retouching">
-<div class="lg:w-1/2 relative overflow-hidden bg-surface-container aspect-[4/5] max-h-[700px]">
-  <!-- IMAGEN RETOUCHING OPTIMIZADA CON SEO -->
-  <img 
-    src="assets/img/bryan-munoz-retoque-digital-fotografia-beauty-macro.webp" 
-    alt="Retoque digital profesional de fotografía beauty por Bryan Muñoz mostrando textura natural de piel macro" 
-    width="800" 
-    height="1000" 
-    loading="lazy" 
-    class="w-full h-full object-cover object-center" 
-  />
-  <div class="absolute top-4 left-4 bg-surface-container-lowest/80 backdrop-blur-sm px-3 py-1 border border-outline-variant/30">
-    <span class="font-caption text-caption uppercase text-primary tracking-widest">Plate 03 • Digital Retouching Reel</span>
-  </div>
-</div>
-<div class="lg:w-1/2 flex flex-col justify-between py-2">
-<div class="flex flex-col gap-4">
-<div class="flex items-center gap-2">
-<span class="font-caption text-caption uppercase text-primary tracking-widest bg-outline-variant/30 px-2 py-0.5">Retouching Master</span>
-<span class="font-caption text-caption uppercase text-outline">100% Crop Fidelity</span>
-</div>
-<h3 class="font-headline-md text-headline-md text-primary uppercase font-bold tracking-tight">
-                  Luminance Purity
-                </h3>
-<p class="font-body-lg text-body-lg text-on-surface-variant font-light">
-                  A pure technical exhibition in non-destructive post-production. Pore-level micro dodge and burn, chromatic aberration nullification, and anatomical contour sculpting without synthetic blur filters.
-                </p>
-<div class="grid grid-cols-2 gap-4 pt-4 border-t border-outline-variant/20">
-<div class="flex flex-col">
-<span class="font-caption text-caption text-outline uppercase">Frequency Separation</span>
-<span class="font-body-sm text-body-sm text-primary uppercase font-medium">16-Bit ProPhoto RGB</span>
-</div>
-<div class="flex flex-col">
-<span class="font-caption text-caption text-outline uppercase">Dodge & Burn Layering</span>
-<span class="font-body-sm text-body-sm text-primary uppercase font-medium">Micro-Luma Curve Passes</span>
-</div>
-<div class="flex flex-col">
-<span class="font-caption text-caption text-outline uppercase">Color Grading</span>
-<span class="font-body-sm text-body-sm text-primary uppercase font-medium">Custom D65 Neutral LUT</span>
-</div>
-<div class="flex flex-col">
-<span class="font-caption text-caption text-outline uppercase">Pore Texture Ratio</span>
-<span class="font-body-sm text-body-sm text-primary uppercase font-medium">100% Intact Epidermis</span>
-</div>
-</div>
-</div>
-<div class="pt-8 border-t border-outline-variant/20 flex items-center justify-between">
-<span class="font-caption text-caption text-outline uppercase tracking-wider">Licensed for Global Commercial Print • 300 DPI Master</span>
-<a class="font-action-label text-action-label text-primary uppercase tracking-widest border-b border-primary pb-1 hover:opacity-80" href="#retouch-deepdive">
-                  Inspect Methodology →
-                </a>
-</div>
-</div>
-</article>
-</div>
-</div>
-</section>
-
-<!-- TECHNICAL POST-PRODUCTION & RETOUCHING SPOTLIGHT -->
-<section class="w-full py-section-sm md:py-section-md bg-surface-container-lowest border-b border-outline-variant/20" id="retouch-deepdive">
-<div class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin-desktop max-w-screen-2xl mx-auto flex flex-col gap-12">
-<div class="max-w-3xl">
-<span class="font-caption text-caption uppercase text-outline tracking-widest">Laboratory Protocol</span>
-<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary uppercase font-bold tracking-tight mt-2">
-            High-End Digital Retouching & Color Mastery
-          </h2>
-<p class="font-body-md text-body-md text-on-surface-variant mt-3 font-light">
-            We provide advertising agencies, luxury Maisons, and international publications with discrete, state-of-the-art image finishing that honors the authentic tactile truth of high-resolution sensors.
+      <article>
+        <div>
+          <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPWHAzZ8h749GQD_il2TUo94wE9mZCFuWlJ0pPT0I54COw-X6MlybxyVl3H3Q0Ho1wog2QjJWWL5fs4FRxuqmJxg-JzS1Mo6bmtoaiQBtuyL6XCOVNse98D5aEVbsaV0WwKcB8Rqpupo_UVNmPDr5nFPD3mqzxQ6feoB40kyvKXHfxP0h9-Vn3JoTZhs33RePoSKnoZc2-W97U-VTklE65OfDfWaEN2KkO_hwcQ4hvgDM7tJ_4Llix9w" 
+               alt="Serie 04 Deportes: Hidrodinámica y congelación acuática en Tenerife por Bryan Muñoz">
+          <div>SERIE 04 // DEPORTES</div>
+        </div>
+        <div>
+          <div>
+            <h3>Hidrodinámica • Salto y Tensión</h3>
+            <span>2024 / TENERIFE</span>
+          </div>
+          <p>
+            Campaña técnica para equipamiento de alto rendimiento. Congelación absoluta de partículas acuáticas con sincronización de alta velocidad.
           </p>
-</div>
+          <div>
+            <div><span>CÁMARA</span> Hasselblad H6D</div>
+            <div><span>ÓPTICA</span> HC 50mm II</div>
+            <div><span>ILUMINACIÓN</span> Profoto Pro-11 Dual Heads</div>
+            <div><span>POSPRODUCCIÓN</span> Separación Acuática 16-bit</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-<div class="border border-outline-variant/20 p-6 bg-surface-container-low flex flex-col gap-4">
-<span class="font-headline-md text-headline-md text-outline-variant font-bold">01</span>
-<h3 class="font-headline-sm text-headline-sm text-primary uppercase font-semibold">
-              Micro Dodge & Burn
-            </h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant font-light leading-relaxed">
-              Manual pixel-by-pixel luminance redistribution using localized curve adjustments. Enhances facial bone architecture and volumetric depth while retaining organic dermal cellularity.
-            </p>
-<div class="mt-auto pt-4 border-t border-outline-variant/10 text-outline font-caption text-caption uppercase">
-              Zero Plasticization
+  <!-- SECCIÓN VISIÓN -->
+  <section id="vision">
+    <div>
+      <div>
+        <span>METODOLOGÍA Y CRITERIO</span>
+        <h2>Visión y Dirección Creativa: La Estética de la Precisión</h2>
+      </div>
+
+      <div>
+        <div>
+          <p>
+            Mi trabajo concibe la luz no como un mero elemento de registro, sino como una herramienta escultórica pura. En cada <strong>producción fotográfica de moda</strong>, buscamos la armonía geométrica entre la caída textil, la morfología humana y la profundidad espacial, descartando artificios para enaltecer la intención del diseñador.
+          </p>
+          <p>
+            En la <strong>dirección de arte para campañas deportivas</strong>, la prioridad radica en la veracidad biomecánica. Capturamos la tensión neuromuscular en su cenit exacto, empleando generadores de destello ultrarrápido que detienen el instante sin sacrificar la atmósfera orgánica ni la vibración del esfuerzo.
+          </p>
+          <p>
+            Nuestra premisa de <strong>retoque digital high-end</strong> huye de la estandarización algorítmica y los filtros destructivos. Cada poro, costura y gradación tonal se preserva y balancea manualmente bajo una cadena de colorimetría rigurosa, garantizando archivos maestros que responden con máxima fidelidad en vallas monumentales o ediciones impresas de lujo.
+          </p>
+        </div>
+
+        <div>
+          <div><span>+12 Años</span><span>De Trayectoria en Europa e Iberoamérica</span></div>
+          <div><span>Campañas Globales</span><span>Dirección Integral de Casting, Set y Posproducción</span></div>
+          <div><span>150 Megapíxeles</span><span>Resolución Nativa de Formato Medio Phase One</span></div>
+          <div><span>Delta E &lt; 0.8</span><span>Workflow Calibrado Eizo ColorEdge Hardware</span></div>
+        </div>
+      </div>
+
+      <div>
+        <span>CLIENTES SELECCIONADOS Y PUBLICACIONES EDITORIALES</span>
+        <div>
+          <div>VOGUE</div>
+          <div>GQ</div>
+          <div>NIKE</div>
+          <div>ADIDAS</div>
+          <div>HARPER'S</div>
+          <div>ON-RUNNING</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN RETOQUE / ANATOMÍA DEL PÍXEL -->
+  <section id="retoque">
+    <div>
+      <div>
+        <div>
+          <span>ANATOMÍA DEL PÍXEL</span>
+          <h2>Desglose de Capas: Retoque High-End</h2>
+        </div>
+        <p>
+          Inspección interactiva de posproducción digital: desde el archivo RAW no lineal hasta las curvas finales de luminancia y textura.
+        </p>
+      </div>
+
+      <div>
+        <div>
+          <div>
+            <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJEl9UEMv-aZAhWxp5kHIgqumXJMDbaJuoodJ4WcMQQIkCIN3H--3LwAwwYaOdINEeQ5fyDkTuFUtJhK5YWyxLePsNq9azv_a5Zcbwl1GygTZqzPGjX6WXU-EEABfOOslM0QjnQt5qL9fFZotGGiX9tHM4Oe1_znVXiloxGAA2Y8oA-Eaa-hmxa19nEJYULGKWwB-lSZTPYsSN56JbUqsToHLLTru6H0AyP0C8p8WrQkglPvoSUKv7QQ" 
+                 alt="Archivo RAW antes de posproducción digital - Bryan Muñoz Studio">
+
+            <div>
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcOlCKket68LJnogeaCiSuKXUdzNnTQh7zEzk6bLPNLU0xBqKGjngK-CJVKCG51s6LhZZIdEX-ru9Tf2Apf97G_8Dn_D_EfGVR-rM7MaT_B6KBptq3tof-gEnz4nhifAIwyhFyPU9rufMIISDBTj59IU1U0n74gWyuqycwhF_axdZv78VCMTlCDoCoIMvCd2cMGRG7nzSOtyQa6TB5eQHE_m9eCwldg2ZGJ2n5z9U5rcubyOXrKDkWtQ" 
+                   alt="Resultado final de retoque digital high-end con Dodge &amp; Burn y separación de frecuencias">
             </div>
-</div>
-<div class="border border-outline-variant/20 p-6 bg-surface-container-low flex flex-col gap-4">
-<span class="font-headline-md text-headline-md text-outline-variant font-bold">02</span>
-<h3 class="font-headline-sm text-headline-sm text-primary uppercase font-semibold">
-              Frequency Decoupling
-            </h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant font-light leading-relaxed">
-              Splitting raw capture data into spatial high-frequency texture and low-frequency chrominance bands. Eliminates blotchiness and pigment irregularities without degrading razor-sharp edges.
-            </p>
-<div class="mt-auto pt-4 border-t border-outline-variant/10 text-outline font-caption text-caption uppercase">
-              Mathematical Precision
+
+            <div>DESLIZAR: RAW vs. HIGH-END 16-BIT</div>
+          </div>
+
+          <div>
+            <span>CAPA BASE: RAW</span>
+            <span>FINAL: D&amp;B + FS</span>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <div><span>01</span><h3>Separación de Frecuencias</h3></div>
+            <p>División matemática del canal espacial: alta frecuencia para poros, arrugas y vello; baja frecuencia para uniformidad de tono cromático a 16 bits reales.</p>
+          </div>
+          <div>
+            <div><span>02</span><h3>Dodge &amp; Burn Manual</h3></div>
+            <p>Micro-escultura de luces y sombras sin alterar la pigmentación original. Curvas individuales por canal aplicadas con lápiz sensible a presión.</p>
+          </div>
+          <div>
+            <div><span>03</span><h3>Colorimetría Cinematográfica</h3></div>
+            <p>Conversión y mapeo a espacios de impresión CMYK Fogra39 o visualización digital DCI-P3 bajo estándares de iluminación normalizada D50.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN CONTACTO -->
+  <section id="contacto">
+    <div>
+      <div>
+        <div>
+          <div>
+            <span>PRODUCCIÓN &amp; RESERVAS</span>
+            <h2>Iniciar Colaboración o Reserva de Campaña</h2>
+            <p>Disponibilidad para shootings editoriales, proyectos comerciales deportivos y encargos de posproducción digital de alta resolución a nivel mundial.</p>
+
+            <div>
+              <div>
+                <span>REPRESENTACIÓN DIRECTA</span>
+                <a href="mailto:studio@bryanmunoz.com">studio@bryanmunoz.com</a>
+              </div>
+              <div>
+                <span>ESTUDIOS PRINCIPALES</span>
+                <p>Calle Almirante 14, 28004 Madrid, España</p>
+                <p>Poblenou Creative Hub, 08005 Barcelona, España</p>
+              </div>
+              <div>
+                <span>TELÉFONO DE PRODUCCIÓN</span>
+                <a href="tel:+34910000000">+34 910 000 000</a> / <a href="tel:+34600000000">+34 600 000 000</a>
+              </div>
             </div>
-</div>
-<div class="border border-outline-variant/20 p-6 bg-surface-container-low flex flex-col gap-4">
-<span class="font-headline-md text-headline-md text-outline-variant font-bold">03</span>
-<h3 class="font-headline-sm text-headline-sm text-primary uppercase font-semibold">
-              Kinetic Motion Grading
-            </h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant font-light leading-relaxed">
-              Engineered for sports apparel campaigns: selective specular water enhancement, contrast boost along dynamic muscle fibers, and suppression of stadium chromatic clutter.
-            </p>
-<div class="mt-auto pt-4 border-t border-outline-variant/10 text-outline font-caption text-caption uppercase">
-              Dynamic Velocity
-            </div>
-</div>
-<div class="border border-outline-variant/20 p-6 bg-surface-container-low flex flex-col gap-4">
-<span class="font-headline-md text-headline-md text-outline-variant font-bold">04</span>
-<h3 class="font-headline-sm text-headline-sm text-primary uppercase font-semibold">
-              Spectral Calibration
-            </h3>
-<p class="font-body-sm text-body-sm text-on-surface-variant font-light leading-relaxed">
-              Strict hardware-calibrated Eizo ColorEdge pipeline ensuring CMYK Fogra39 and RGB digital consistency. Garment pigments are strictly color-matched to physical textile swatches.
-            </p>
-<div class="mt-auto pt-4 border-t border-outline-variant/10 text-outline font-caption text-caption uppercase">
-              Print & Billboard Ready
-            </div>
-</div>
-</div>
-</div>
-</section>
+          </div>
 
-<!-- VISION, ART DIRECTION & PHILOSOPHY SECTION -->
-<section class="w-full py-section-sm md:py-section-md border-b border-outline-variant/20" id="philosophy">
-<div class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin-desktop max-w-screen-2xl mx-auto flex flex-col gap-16">
-<div class="max-w-4xl border-l-2 border-primary pl-6 lg:pl-10">
-<p class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary uppercase font-semibold tracking-tight leading-tight">
-            “Light is not just illumination; it is architectural form and psychological tension.”
-          </p>
-<span class="block mt-4 font-caption text-caption uppercase text-outline tracking-widest">
-            Bryan Muñoz • Paris Studio Notebook
-          </span>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 pt-4">
-<div class="flex flex-col gap-3">
-<h3 class="font-headline-sm text-headline-sm text-primary uppercase font-bold tracking-tight">
-              Architectural Rigor
-            </h3>
-<p class="font-body-md text-body-md text-on-surface-variant font-light leading-relaxed">
-              Every composition begins with geometry. We construct scenes around brutalist baselines, directional shadow falloff, and calculated negative space. The human body is honored not as a casual model, but as a monumental sculpture in conversation with its surrounding volume.
-            </p>
-</div>
-<div class="flex flex-col gap-3">
-<h3 class="font-headline-sm text-headline-sm text-primary uppercase font-bold tracking-tight">
-              Kinetic Authenticity
-            </h3>
-<p class="font-body-md text-body-md text-on-surface-variant font-light leading-relaxed">
-              In athletic performance captures, there are no simulated poses. We subject world-class athletes to authentic physical strain, matching high-speed pulse synchronization with organic elements—rain, sweat, dust—to document human fortitude in its most raw, unadorned state.
-            </p>
-</div>
-<div class="flex flex-col gap-3">
-<h3 class="font-headline-sm text-headline-sm text-primary uppercase font-bold tracking-tight">
-              The Digital Darkroom
-            </h3>
-<p class="font-body-md text-body-md text-on-surface-variant font-light leading-relaxed">
-              Post-production is not a salvage mission; it is the deliberate final stroke of authorship. By executing all high-end retouching in-house, we maintain absolute fidelity to the original creative vision—from initial moodboard concept to final double-page magazine spread.
-            </p>
-</div>
-</div>
-</div>
-</section>
+          <div>
+            <a href="https://www.instagram.com/tu_usuario_real" rel="noopener noreferrer" target="_blank">Instagram</a>
+            <a href="https://www.behance.net/tu_usuario_real" rel="noopener noreferrer" target="_blank">Behance</a>
+            <a href="https://www.linkedin.com/in/tu_usuario_real" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<!-- CONTACT & GLOBAL REPRESENTATION SECTION -->
-<section class="w-full py-section-sm md:py-section-md bg-surface-container-low border-b border-outline-variant/20" id="contact">
-<div class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin-desktop max-w-screen-2xl mx-auto flex flex-col gap-12">
-<div class="max-w-2xl">
-<span class="font-caption text-caption uppercase text-outline tracking-widest">Studio Booking</span>
-<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-primary uppercase font-bold tracking-tight mt-2">
-            Inquiries & Commissions
-          </h2>
-<p class="font-body-md text-body-md text-on-surface-variant mt-2 font-light">
-            Now reviewing global advertising campaigns, fashion editorials, and master retouching contracts for Q2/Q3 2025.
-          </p>
-</div>
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16">
-<form class="lg:col-span-7 flex flex-col gap-8" onsubmit="event.preventDefault(); alert('Inquiry transmitted to Bryan Muñoz Studio Representation.');">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<div class="flex flex-col gap-2">
-<label class="font-caption text-caption uppercase text-outline tracking-wider" for="client-name">Your Name / Agent</label>
-<input class="bg-transparent border-0 border-b border-outline-variant focus:border-primary focus:ring-0 text-primary font-body-md px-0 py-2 placeholder:text-outline-variant/50" id="client-name" placeholder="e.g. Hélène Vance" required="" type="text"/>
-</div>
-<div class="flex flex-col gap-2">
-<label class="font-caption text-caption uppercase text-outline tracking-wider" for="client-org">Organization / Brand</label>
-<input class="bg-transparent border-0 border-b border-outline-variant focus:border-primary focus:ring-0 text-primary font-body-md px-0 py-2 placeholder:text-outline-variant/50" id="client-org" placeholder="e.g. Maison de Mode / Nike EMEA" required="" type="text"/>
-</div>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<div class="flex flex-col gap-2">
-<label class="font-caption text-caption uppercase text-outline tracking-wider" for="project-scope">Project Scope</label>
-<select class="bg-surface-container-low border-0 border-b border-outline-variant focus:border-primary focus:ring-0 text-primary font-body-md px-0 py-2" id="project-scope">
-<option value="fashion">Fashion Editorial & Lookbook</option>
-<option value="sports">Athletic Campaign & Motion Shoot</option>
-<option value="retouching">High-End Digital Retouching Only</option>
-<option value="direction">Full Creative & Art Direction</option>
-</select>
-</div>
-<div class="flex flex-col gap-2">
-<label class="font-caption text-caption uppercase text-outline tracking-wider" for="timeline">Projected Timeline</label>
-<input class="bg-transparent border-0 border-b border-outline-variant focus:border-primary focus:ring-0 text-primary font-body-md px-0 py-2 placeholder:text-outline-variant/50" id="timeline" placeholder="e.g. June 2025 / Milan" type="text"/>
-</div>
-</div>
-<div class="flex flex-col gap-2">
-<label class="font-caption text-caption uppercase text-outline tracking-wider" for="message">Project Brief & Deliverables</label>
-<textarea class="bg-transparent border-0 border-b border-outline-variant focus:border-primary focus:ring-0 text-primary font-body-md px-0 py-2 placeholder:text-outline-variant/50 resize-none" id="message" placeholder="Detail shot counts, distribution channels (OOH, Print, Digital), and creative direction mood..." required="" rows="4"></textarea>
-</div>
-<div>
-<button class="bg-primary text-surface-container-lowest font-action-label text-action-label uppercase tracking-widest px-10 py-4 rounded-none hover:opacity-90 transition-opacity" type="submit">
-                Transmit Studio Inquiry
-              </button>
-</div>
-</form>
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <div>
+      <div>
+        <span>BRYAN MUÑOZ</span>
+        <span>© 2025 BRYAN MUÑOZ. ALL RIGHTS RESERVED. ARCHITECTURAL &amp; EDITORIAL PRACTICE.</span>
+      </div>
 
-<div class="lg:col-span-5 flex flex-col justify-between gap-8 border-t lg:border-t-0 lg:border-l border-outline-variant/20 pt-8 lg:pt-0 lg:pl-12">
-<div class="flex flex-col gap-8">
-<div>
-<span class="font-caption text-caption uppercase text-outline tracking-widest block mb-2">European Bureau</span>
-<p class="font-headline-sm text-headline-sm text-primary uppercase font-bold">Paris Management</p>
-<p class="font-body-sm text-body-sm text-on-surface-variant font-light mt-1">
-                  18 Rue du Faubourg Saint-Honoré<br/>75008 Paris, France
-                </p>
-<p class="font-caption text-caption text-outline uppercase mt-1">paris@bryanmunoz.com • +33 1 42 68 00 20</p>
-</div>
-<div>
-<span class="font-caption text-caption uppercase text-outline tracking-widest block mb-2">Americas Bureau</span>
-<p class="font-headline-sm text-headline-sm text-primary uppercase font-bold">New York Office</p>
-<p class="font-body-sm text-body-sm text-on-surface-variant font-light mt-1">
-                  Hudson Studios, 11th Ave & W 36th<br/>New York, NY 10018, USA
-                </p>
-<p class="font-caption text-caption text-outline uppercase mt-1">ny@bryanmunoz.com • +1 212 947 5000</p>
-</div>
-<div>
-<span class="font-caption text-caption uppercase text-outline tracking-widest block mb-2">Direct Studio Desk</span>
-<p class="font-body-sm text-body-sm text-primary font-light">
-                  Direct commissions & retouching contracts:<br/>
-<a class="border-b border-primary text-primary hover:opacity-75" href="mailto:studio@bryanmunoz.com">studio@bryanmunoz.com</a>
-</p>
-</div>
-</div>
+      <nav>
+        <a href="#portafolio">Moda</a>
+        <a href="#portafolio">Deportes</a>
+        <a href="#retoque">Retoque Digital</a>
+        <a href="#vision">Visión</a>
+        <a href="#contacto">Contacto</a>
+        <a href="#contacto">Legal &amp; Schema</a>
+      </nav>
+    </div>
+  </footer>
 
-<div class="pt-6 border-t border-outline-variant/20 flex flex-wrap gap-6 font-caption text-caption uppercase tracking-wider text-on-surface-variant">
-<a class="hover:text-primary transition-colors" href="#">Instagram</a>
-<span class="text-outline-variant">•</span>
-<a class="hover:text-primary transition-colors" href="#">Models.com</a>
-<span class="text-outline-variant">•</span>
-<a class="hover:text-primary transition-colors" href="#">Behance</a>
-<span class="text-outline-variant">•</span>
-<a class="hover:text-primary transition-colors" href="#">LinkedIn</a>
-</div>
-</div>
-</div>
-</div>
-</section>
-</main>
-
-<!-- FOOTER -->
-<footer class="bg-surface-container-lowest dark:bg-surface-container-lowest border-t border-outline-variant/20 dark:border-outline-variant/20">
-<div class="w-full px-margin-mobile md:px-margin-tablet lg:px-margin-desktop py-16 max-w-screen-2xl mx-auto flex flex-col gap-12">
-<div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 pb-8 border-b border-outline-variant/10">
-<div>
-<span class="text-headline-sm font-headline-sm font-bold text-primary dark:text-primary tracking-tight uppercase">
-            Bryan Muñoz
-          </span>
-<p class="font-caption text-caption tracking-wider uppercase text-on-surface-variant mt-1">
-            Haute Couture • High-Velocity Athletics • Master Digital Retouching
-          </p>
-</div>
-<div class="flex flex-wrap gap-6 font-caption text-caption">
-<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary font-caption text-caption uppercase transition-colors duration-200" href="#fashion">Fashion Archive</a>
-<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary font-caption text-caption uppercase transition-colors duration-200" href="#sports">Sports Campaigns</a>
-<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary font-caption text-caption uppercase transition-colors duration-200" href="#retouching">Retouching Reel</a>
-<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary font-caption text-caption uppercase transition-colors duration-200" href="#contact">Agency Representation</a>
-<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary font-caption text-caption uppercase transition-colors duration-200" href="#">Studio Impressum</a>
-<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary font-caption text-caption uppercase transition-colors duration-200" href="#">Accessibility</a>
-<a class="text-on-surface-variant dark:text-on-surface-variant hover:text-primary dark:hover:text-primary font-caption text-caption uppercase transition-colors duration-200" href="#">Privacy Policy</a>
-</div>
-</div>
-
-<div class="flex flex-col md:flex-row justify-between items-center gap-4 text-on-surface-variant font-caption text-caption tracking-wider uppercase">
-<p>© 2025 Bryan Muñoz Studio. All Rights Reserved. Paris • New York • Milan.</p>
-<p class="text-outline">Designed with Architectural Precision • Sensor Calibrated D65</p>
-</div>
-</div>
-</footer>
 </body>
 </html>
